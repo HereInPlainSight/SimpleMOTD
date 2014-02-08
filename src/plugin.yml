@@ -1,0 +1,21 @@
+name: SimpleMotD
+version: 0.1
+main: com.etherelements.hereinplainsight.SimpleMotD.SimpleMotD
+author: HereInPlainSight
+license: Beerware (But with a milkshake!)
+description: >
+             Simple MotD.
+
+commands:
+  setmotd:
+    description: Sets the MotD if you have the simplemotd.set permission.
+    usage: /<command> <MotD>
+  motd:
+    description: Lists the MotD.
+    usage: /<command>
+
+permissions:
+    simplemotd.set:
+        description: Gives access to setting the simpleMotD.
+        default: op
+        
